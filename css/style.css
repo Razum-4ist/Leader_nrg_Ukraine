@@ -426,19 +426,21 @@ body{
 /* ------------------planet----------------------- */
 .planet{
     background-color: #37454c;
+    background-color: #37454c;
+    background-image: url(../images/planet/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 530px;
 }
-.planet-img{
+/* .planet-img{
     max-width: 100%;
-}
+} */
 .planet-calc-title{
-    width: 560px;
+    width: 600px;
     max-width: 100%;
     margin: 0 auto 0 auto;
 }
-/* .icon-Shape-1, .icon-Shape-2, .icon-Shape-3, .icon-Shape-4, .icon-Shape-5, .icon-Shape-6{
-    font-size: 80px;
-    color: #232323;
-} */
 .icon-Shape{
     font-size: 80px;
     color: #232323;
@@ -459,7 +461,7 @@ body{
     opacity: 1;
     margin: 1rem auto 1rem auto;
 }
-.benefits-p{
+.planet-p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #91969c;
@@ -642,4 +644,62 @@ body{
     font-family: 300;
     color: #fff;
     font-size: 16px;
+}
+.footer-input{
+    height: 50px;
+    width: 290px;
+    border: 2px solid #fff;
+    background-color: inherit;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold
+}
+.footer-btn{
+    transform: translate(-6px, -1px);
+    height: 51px;
+    width: 60px;
+    background-color: #35d06e;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold
+}   
+@media(min-width:768px){
+    .footer-btn{
+        transform: translate(230px, -51px);
+        
+    } 
+    .footer-input{
+        padding-right: 60px;
+    }
+}
+@media(min-width:1200px){
+    .footer-btn{
+        transform: translate(-6px, -1px);
+        
+    } 
+    .footer-input{
+        padding-right: 6px;
+    }
+}
+.footer-item{
+    list-style-type: none;
+}
+.footer-hr{
+   margin: 10px auto 10px auto;
+}
+.footer-link{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #a6aeb7;
+}
+.footer-p-bottom{
+    font-family: 'Raleway', sans-serif;
+    color: #a6aeb7;
+    font-weight: 300;
+    font-size: 13px;
+}
+.footer-item:hover .footer-link{
+    color: #34cc76;
 }
