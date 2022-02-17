@@ -539,7 +539,7 @@ body{
     height: 2px;
     opacity: 1;
 }
-#myBtn{
+.myBtn{
     border: none;
     background-color: #fff;
     color: #35d06e;
