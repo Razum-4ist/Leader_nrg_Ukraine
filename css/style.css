@@ -291,7 +291,7 @@ body{
         font-size: 1.5em;
     }
     .calc-btn{
-        background-color: #30c38a;
+        background-color: #35d06e;
         box-shadow: 0px 0px 6px 3px rgb(127 138 146 / 20%);
         border: 3px solid #fff;
         padding: 5px 10px 5px 10px;
@@ -305,12 +305,18 @@ body{
         margin-bottom: 25px;
     }
 }
+.btn-success {
+    color: #fff;
+    background-color: #35d06e;
+    border-color: #35d06e;
+    border-radius: 0;
+}
 @media(min-width:992px){
     .row-calc{
         display: flex;
     }
     .calc-btn {
-        background-color: #30c38a;
+        background-color: #35d06e;
         box-shadow: 0px 0px 6px 3px rgb(127 138 146 / 20%);
         border: 5px solid #fff;
         padding: 10px 15px 10px 15px;
@@ -323,7 +329,7 @@ body{
 }
 @media(min-width:1200px){
     .calc-btn {
-        background-color: #30c38a;
+        background-color: #35d06e;
         box-shadow: 0px 0px 6px 3px rgb(127 138 146 / 20%);
         border: 5px solid #fff;
         padding: 10px 15px 10px 15px;
@@ -332,7 +338,7 @@ body{
 }
 @media(min-width:1400px){
     .calc-btn {
-        background-color: #30c38a;
+        background-color: #35d06e;
         box-shadow: 0px 0px 6px 3px rgb(127 138 146 / 20%);
         border: 5px solid #fff;
         padding: 10px 15px 10px 15px;
@@ -475,6 +481,11 @@ body{
 .projects-card{
     border: none;
     border-radius: 0;
+}
+.projects-button{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 .projects-card-body{
     transform: translate(0 , 0);
